@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>购物车demo</title>
+<link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+<!-- 表头 -->
+<table id="table">
+    <tr>
+    	<th><input type="checkbox" class="allCheck check">全选</th>
+    	<th>商品</th>
+    	<th>单价</th>
+    	<th>数量</th>
+    	<th>小计</th>
+    	<th>操作</th>
+	</tr>
+	<tr>
+		<td><input type="checkbox" class="check"></td>
+		<td>你所不知道的js（上册）</td>
+		<td class="unitCost">32.00</td>
+		<td><span class="reduce">-</span><input type="text" value="1" class="product"><span class="add">+</span></td>
+		<td class="cost">32.00</td>
+		<td class="dele">删除</td>
+	</tr>
+
+	<tr>
+		<td><input type="checkbox" class="check"></td>
+		<td>疯狂Ajax</td>
+		<td class="unitCost">64.00</td>
+		<td><span class="reduce">-</span><input type="text" value="1" class="product"><span class="add">+</span></td>
+		<td class="cost">64.00</td>
+		<td class="dele">删除</td>
+	</tr>
+
+	<tr>
+		<td><input type="checkbox" class="check"></td>
+		<td>javascript模式</td>
+		<td class="unitCost">41.00</td>
+		<td><span class="reduce">-</span><input type="text" value="1" class="product"><span class="add">+</span></td>
+		<td class="cost">41.00</td>
+		<td class="dele">删除</td>
+	</tr>
+
+	<tr>
+		<td><input type="checkbox" class="check"></td>
+		<td>编写可维护的javascript</td>
+		<td class="unitCost">55.00</td>
+		<td><span class="reduce">-</span><input type="text" value="1" class="product"><span class="add">+</span></td>
+		<td class="cost">55.00</td>
+		<td class="dele">删除</td>
+	</tr>
+
+	<tr>
+		<td><input type="checkbox" class="check"></td>
+		<td>图解CSS3</td>
+		<td class="unitCost">67.00</td>
+		<td><span class="reduce">-</span><input type="text" value="1" class="product"><span class="add">+</span></td>
+		<td class="cost">67.00</td>
+		<td class="dele">删除</td>
+	</tr>
+</table>
+<div class="count">
+	<div class="all"><input type="checkbox" class="allCheck check">全选</div>
+	<div class="delete">删除</div>
+	<div class="checkedGoods">已选商品<span id="goodsNum">0</span>件</div>
+	<div class="calute" id="caluteSum">合计：<span>0.00</span>元</div>
+	<div class="pay">结算</div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="js/js.js"></script>
