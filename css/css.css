@@ -1,0 +1,59 @@
+body{
+	padding:0;
+	margin:0;
+	font-family: "微软雅黑";
+}
+table{
+	margin:40px auto;
+	width:960px;
+	border:1px solid #ccc;
+	text-align: center;
+	border:1px solid #ee4242;
+	border-collapse: collapse;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+th{
+	background:#ee4242;
+	color:#fff;
+}
+td{
+	padding:10px;
+	border:1px solid #ee4242;
+}
+/*加减号的修饰*/
+.add,.reduce{
+	border:1px solid #ccc;
+	margin:0 3px 0 3px;
+	padding:0 3px 0 3px;
+	cursor: pointer;
+	display:inline-block;
+}
+.count{
+   margin: 20px auto ;
+   width: 960px;
+   height: 50px;
+   line-height: 50px;
+   /*border: 1px solid #ccc;*/
+   display: block;
+   background: #ccc;
+}
+.all ,.allCheck,.delete,.checkedGoods,.calute,.pay{
+	display: inline-block;
+}
+.allCheck{
+	display: inline-block;
+}
+.delete{
+	display: inline-block;
+}
+.checkedGoods{
+	display: inline-block;
+}
+.calute{
+	display: inline-block;
+}
+
+.pay{
+	display: inline-block;
+}

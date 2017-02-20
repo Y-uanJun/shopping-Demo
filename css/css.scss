@@ -1,0 +1,21 @@
+table{
+	width:960px;
+	border:1px solid #ccc;
+	text-align: center;
+	border:1px solid #ee4242;
+	border-collapse: collapse;
+}
+th{
+	background:#ee4242;
+	color:#fff;
+}
+td{
+	padding:10px;
+	border:1px solid #ee4242;
+}
+
+$color: #369; 
+body {
+background:$color;
+
+}
